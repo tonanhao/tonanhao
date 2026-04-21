@@ -1,7 +1,6 @@
 <div align="center">
 
-<!-- Dynamic Typing SVG -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1200&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Hey+there!+I'm+Ton+Anh+Hao+%F0%9F%91%8B;Backend+Developer+%7C+Security+Enthusiast;Building+things+that+matter+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1200&color=6C63FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Hey+there!+I'm+Ton+Anh+Hao+%F0%9F%91%8B;Backend+Developer+%7C+AI+Engineer;Building+things+that+matter+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=tonanhao&label=Profile%20Views&color=6C63FF&style=for-the-badge" alt="profile views"/>
 
@@ -19,22 +18,21 @@
 class TonAnhHao:
     def __init__(self):
         self.name        = "Ton Anh Hao"
-        self.role        = "Final-year IT Student & Aspiring Backend Developer"
+        self.role        = ["Backend Developer", "AI Engineer (LLM & RAG)"]
         self.university  = "HUTECH University"
         self.gpa         = "8.5 / 10"
         self.location    = "Ho Chi Minh City, Vietnam 🇻🇳"
-        self.status      = "🔍 Actively seeking Backend / Security internship opportunities"
-        self.interests   = ["Backend Development", "Cybersecurity", "Blockchain", "AI/LLM"]
+        self.status      = "🔍 Actively seeking Backend / AI internship opportunities"
+        self.interests   = ["Backend Development", "AI / LLM Integration", "Blockchain"]
 
     def say_hi(self):
         print("Thanks for dropping by! Let's build something awesome together 🚀")
-
 
 me = TonAnhHao()
 me.say_hi()
 ```
 
-> 💡 *I'm a curious builder who loves diving into backend systems, exploring security vulnerabilities (ethically!), and experimenting with emerging tech like LLMs and blockchain. I believe the best way to learn is to ship real projects.*
+> 💡 *I'm a final-year IT student who loves building backend systems and experimenting with LLMs, RAG pipelines, and blockchain. I care about writing clean, purposeful code and shipping real projects that solve real problems.*
 
 ---
 
@@ -56,6 +54,12 @@ me.say_hi()
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 
+### 🤖 AI / LLM
+![Google Gemini](https://img.shields.io/badge/Google_Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-00599C?style=for-the-badge&logoColor=white)
+
 ### 🎨 Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -65,13 +69,6 @@ me.say_hi()
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🔐 Security & Networking
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
 
 ### ⛓️ Blockchain
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
@@ -99,7 +96,13 @@ me.say_hi()
 ### 📄 [PDF RAG Assistant](https://github.com/tonanhao/pdf-rag-assistant)
 > 🤖 AI-powered document Q&A system
 
-An intelligent **Retrieval-Augmented Generation** assistant that lets users upload PDFs and ask natural language questions. Leverages Google Gemini for generation and FAISS for efficient vector search.
+A full-stack **Retrieval-Augmented Generation** assistant that lets users upload PDFs and ask natural language questions. Leverages Google Gemini for generation and FAISS for efficient vector search.
+
+**Highlights:**
+- Designed & refined prompts for improved Q&A accuracy
+- Built RAG pipeline with LangChain + FAISS
+- Developed RESTful APIs for PDF ingestion & conversation history
+- Experimented with chunking strategies for optimal retrieval
 
 **Tech:** `FastAPI` `LangChain` `Google Gemini` `FAISS` `React` `PostgreSQL` `Docker`
 
@@ -109,9 +112,15 @@ An intelligent **Retrieval-Augmented Generation** assistant that lets users uplo
 ### 🔗 [Blockchain Certificate Management](https://github.com/tonanhao/blockchain-certificate-management)
 > 📜 Tamper-proof digital certificates on Ethereum
 
-A decentralized system for issuing and verifying academic certificates on the **Ethereum blockchain**, ensuring transparency and immutability. Certificates are stored on IPFS for decentralized file hosting.
+A decentralized system for issuing and verifying academic certificates on the **Ethereum blockchain**, with an AI-assisted validation layer. Certificates are stored on IPFS for decentralized file hosting.
 
-**Tech:** `Express.js` `Solidity` `Ethereum` `IPFS` `JWT` `PostgreSQL`
+**Highlights:**
+- Developed backend with Express.js + TypeScript & JWT auth
+- Integrated Solidity smart contracts for on-chain verification
+- Implemented IPFS storage with QR code generation
+- Designed system architecture & database schema
+
+**Tech:** `Express.js` `TypeScript` `Solidity` `Ethereum` `IPFS` `PostgreSQL` `JWT` `Hardhat`
 
 </td>
 </tr>
@@ -145,20 +154,20 @@ A decentralized system for issuing and verifying academic certificates on the **
 ```json
 {
   "short_term": [
-    "🔍 Land a Backend / Security internship",
-    "📚 Deepen knowledge in system design & microservices",
-    "🛡️ Earn a cybersecurity certification (CompTIA Security+ / CEH)"
+    "🔍 Land a Backend or AI internship",
+    "📚 Deepen knowledge in system design & microservices (Spring Cloud)",
+    "☁️ Learn cloud services — AWS fundamentals"
   ],
   "long_term": [
     "🏗️ Contribute to meaningful open-source projects",
     "🧠 Master cloud-native development (AWS / GCP)",
     "⛓️ Build more decentralized applications",
-    "🤖 Explore the intersection of AI and security"
+    "🤖 Explore the intersection of AI and backend systems"
   ],
   "currently_learning": [
     "☁️ Cloud services (AWS)",
     "🏛️ Microservices architecture with Spring Cloud",
-    "🔒 Advanced penetration testing techniques"
+    "🧠 Prompt engineering & LLM optimization"
   ]
 }
 ```
